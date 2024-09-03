@@ -10,6 +10,9 @@ export const AppSider = () => {
     setState(e.current);
   };
 
+  function notinMain (){
+    console.log("NOPPpppe");
+  }
   function trythis() {
     console.log('click ');
   };
