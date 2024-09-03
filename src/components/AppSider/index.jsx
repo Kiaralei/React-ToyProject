@@ -16,6 +16,9 @@ export const AppSider = () => {
   function trythis() {
     console.log('click ', e);
   };
+  function inDev(){
+    console.log('inDev ');
+  }
   return (
     <Menu onClick={handleClick}
         style={{ width: 240 }}
