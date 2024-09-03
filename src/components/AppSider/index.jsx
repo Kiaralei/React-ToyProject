@@ -11,10 +11,10 @@ export const AppSider = () => {
   };
 
   function trythis() {
-    console.log('click ', e);
+    console.log('click ');
   };
   function inMain(){
-    
+    console.log('inMain ');
   }
 
   return (
