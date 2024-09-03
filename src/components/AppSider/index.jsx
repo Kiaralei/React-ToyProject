@@ -9,6 +9,10 @@ export const AppSider = () => {
     console.log('click ', e);
     setState(e.current);
   };
+
+  function notinMain (){
+    console.log("NOPPpppe");
+  }
   return (
     <Menu onClick={handleClick}
         style={{ width: 240 }}
