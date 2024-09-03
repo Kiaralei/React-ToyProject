@@ -5,7 +5,7 @@ const MenuItemGroup = Menu.ItemGroup;
 
 export const AppSider = () => {
     
-    return (
+  return (
     <Menu>
         <SubMenu key="sub1" title={<span>导航一</span>}>
           <MenuItemGroup title="分组1">
@@ -17,5 +17,6 @@ export const AppSider = () => {
             <Menu.Item key="4">选项4</Menu.Item>
           </MenuItemGroup>
         </SubMenu>
-    </Menu>)
+    </Menu>
+  )
 }

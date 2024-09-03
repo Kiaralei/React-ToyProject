@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { AppSider } from './components/AppSider';
+import {AppSider} from './components/AppSider/index'
+
 
 
 const App = () => {
