@@ -4,6 +4,7 @@ const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
 export const AppSider = () => {
+  console.log("Test CherryPick");
   const [state,setState] = useState('1');
   function handleClick(e) {
     console.log('click ', e);
